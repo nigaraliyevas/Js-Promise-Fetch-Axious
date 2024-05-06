@@ -23,3 +23,32 @@
 .footer {
   background-color: #036661;
 }
+.weather {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: url("./../img/IMG_20240505_231813_900.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.weather-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  margin: 370px 50%;
+  transform: translate(-50%, -50%);
+}
+.weather-box {
+  min-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
